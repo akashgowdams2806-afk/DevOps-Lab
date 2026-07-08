@@ -18,8 +18,9 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/akashgowdams2806-afk/DevOps-Lab.git'
+                git branch: 'main'
+                    url: 'https://github.com/akashgowdams2806-afk/DevOps-Lab.git
+                    https://github.com/akashgowdams2806-afk/DevOps-Lab.git
             }
         }
 
