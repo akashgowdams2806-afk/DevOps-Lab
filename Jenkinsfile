@@ -19,7 +19,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/yourusername/devops-cicd-lab.git'
+                    url: 'https://github.com/akashgowdams2806-afk/DevOps-Lab.git'
             }
         }
 
